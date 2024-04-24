@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "lint": "npx eslint --cache --fix --ext .js,.jsx,.ts,.tsx app/",
     "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
